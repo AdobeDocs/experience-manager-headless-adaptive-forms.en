@@ -40,7 +40,7 @@ You can use the starter app to render and preview a custom Headless adaptive for
 
 ## Is it possible to use Headless adaptive forms with custom frameworks?
 
-Headless adaptive forms are based on [standard specification](/help/assets/Headless-Adaptive-Form-Specification.pdf). You can extend the specification to use it to build custom components. For example, components for Chakra UI, Vue.js, and more.
+Headless adaptive forms are based on [standard specification](/help/assets/headless-adaptive-forms-specification.pdf). You can extend the specification to use it to build custom components. For example, components for Chakra UI, Vue.js, and more.
 
 ## Do Headless adaptive forms support cascading fields?
 

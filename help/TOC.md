@@ -24,6 +24,8 @@ hide: no
 + Create Headless adaptive forms {#authoring-headless-adaptive-forms}
     + [Create a Headless adaptive form using Adaptive Forms editor](create-a-headless-adaptive-form.md)
 + Developer Reference {#developer-reference}
+    + [Developer portal](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=en)
+    + [Code playground](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)
     + [Headless adaptive forms APIs](https://opensource.adobe.com/aem-forms-af-runtime/api/)
 + [Frequently asked questions](faq.md)
 + [Troubleshooting](troubleshooting.md)

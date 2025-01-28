@@ -71,6 +71,8 @@ Along with providing the APIs to validate constraints applied to various fields 
 
 All of these components are included in AEM Archetype. When you create an AEM Archetype 37 or later project for Headless adaptive forms, the latest version of above listed libraries is included in the project.
 
+* **Code playground**: [Code playground](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en) is an interactive environment designed for developers to experiment with, learn about, and test the capabilities of Headless Adaptive Forms. 
+
 **Started Application**: Adobe has also released a started application to help you start quickly with Headless adaptive forms.
 
 <!-- **View Library (UI Layer)**: A custom form application built in a front-end language. You can use react, Angular, Flutter, NPM, Vue.js, Ionic, BootStrap, or any other language to built front end. You can also use the Headless adaptive forms Super Component, provided out-of-the-box, inside a react application to render a Headless adaptive form. Headless adaptive forms super component makes use of OOTB react spectrum -based form components to render the Headless adaptive form. 
@@ -81,8 +83,9 @@ Core-Components: It enables use to render an Adaptive Form using JSON structure.
 
 **Visual Studio Code Extension**: [Visual Studio Code extension](visual-studio-code-extension-for-headless-adaptive-forms.md) to help create a valid JSON structure. It provides IntelliSense support and validation for JSON structure of forms along with common functions like add, delete, or rename components of a JSON structure.
 
-**Adaptive Forms version 2.0 specifications**: Adaptive Forms version 2.0 specification provides a detailed information on all the components, constraints, and methods available to define Headless adaptive forms. The specification is available in [PDF](/help/assets/Headless-Adaptive-Form-Specification.pdf) format.
-
 **HTTP and JavaScript APIs**: [HTTP APIs](https://opensource.adobe.com/aem-forms-af-runtime/api/) allow you to list, fetch, validate, submit, track submission status of headless forms. [JS APIs](https://opensource.adobe.com/aem-forms-af-runtime/jsdocs/) helps you use Headless adaptive forms with any JavaScript based UI framework. 
 
 **JSON Formula**: It is an implementation of forms expression grammar to helps you query JSON structure and create rules for Headless adaptive forms. The grammar is a mashup of spreadsheet-like functions and operators and [JMESPath](https://jmespath.org/) a JSON query language. You can use the [playground](https://opensource.adobe.com/json-formula/dist/index.html) to explore JSON formula syntax and capabilities.
+
+**Adaptive Forms version 2.0 specifications**: Adaptive Forms version 2.0 specification provides a detailed information on all the components, constraints, and methods available to define Headless adaptive forms. The specification is available in [PDF](/help/assets/headless-adaptive-forms-specification.pdf) format.
+
