@@ -17,19 +17,19 @@ By deploying the AEM Archetype 41 or later based project to your AEM 6.5 Forms i
 
 Before enabling Headless Adaptive Forms on AEM 6.5 Forms environment, 
 
-*   [Upgrade to AEM 6.5 Forms Service Pack 16 (6.5.16.0) or later](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/aem-forms-current-service-pack-installation-instructions.html). 
+* [Upgrade to AEM 6.5 Forms Service Pack 16 (6.5.16.0) or later](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/aem-forms-current-service-pack-installation-instructions.html). 
 
-*   Install the latest release of [Apache Maven](https://maven.apache.org/download.cgi).
+* Install the latest release of [Apache Maven](https://maven.apache.org/download.cgi).
 
-*   Install a plain text editor. For example, Microsoft Visual Studio Code. 
+* Install a plain text editor. For example, Microsoft Visual Studio Code. 
 
 ## Create and deploy latest AEM Archetype based project 
 
 To create an AEM Archetype 41 or [later](https://github.com/adobe/aem-project-archetype) based project and deploy it to all of your Author and Publish instances:  
 
-1.  Log in to your computer, hosting and running your AEM 6.5 Forms instance, as an Administrator.
-1.  Open the command prompt or terminal. 
-1.  Run the following command to create AEM Archetype 41 based project:
+1. Log in to your computer, hosting and running your AEM 6.5 Forms instance, as an Administrator.
+1. Open the command prompt or terminal. 
+1. Run the following command to create AEM Archetype 41 based project:
 
     * Microsoft Windows
     
@@ -43,7 +43,7 @@ To create an AEM Archetype 41 or [later](https://github.com/adobe/aem-project-ar
         -D appId="myform" ^
         -D groupId="com.myform" ^
         -D includeFormsenrollment="y" ^
-        -D aemVersion="6.5.15" 
+        -D aemVersion="6.5.23" 
 
      ```
 
@@ -59,21 +59,20 @@ To create an AEM Archetype 41 or [later](https://github.com/adobe/aem-project-ar
         -D appId="myform" \
         -D groupId="com.myform" \
         -D includeFormsenrollment="y" \
-        -D aemVersion="6.5.15" 
+        -D aemVersion="6.5.23" 
 
      ```    
 
-    When you execute the above command, be sure to consider the following points:
+    When you execute the above command, be sure to consider the following:
 
-    *   Update the command to reflect the specific values for your environment, including the appTitle, appId, and groupId. Also, set the values for includeFormsenrollment to 'y'. If you use Forms Portal, set the _includeExamples=y_ option to include Forms Portal Core Components in your project.
+    * Update the command to reflect the specific values for your environment, including the appTitle, appId, and groupId. Also, set the values for includeFormsenrollment to 'y'. If you use Forms Portal, set the _includeExamples=y_ option to include Forms Portal Core Components in your project.
 
-    *   Do not change the 'aemVersion' from 6.5.15.0 to anything else.  
 
-1.  (Only for Archetype version 41 based projects) After the AEM Archetype project is created, enable themes for Core Components based Adaptive Forms. To enable themes:  
+1. (Only for Archetype version 41 based projects) After the AEM Archetype project is created, enable themes for Core Components based Adaptive Forms. To enable themes:  
 
-    1.  Open the [AEM Archetype Project Folder]/ui.apps/src/main/content/jcr_root/apps/__appId__/components/adaptiveForm/page/customheaderlibs.html for editing:
+    1. Open the [AEM Archetype Project Folder]/ui.apps/src/main/content/jcr_root/apps/__appId__/components/adaptiveForm/page/customheaderlibs.html for editing:
 
-    1.  Add the following code at line 21: 
+    1. Add the following code at line 21: 
 
         ```XML 
 
@@ -87,24 +86,22 @@ To create an AEM Archetype 41 or [later](https://github.com/adobe/aem-project-ar
 
         ![Add above mentioned code at line 21](/help/assets/code-to-enable-themes.png)
 
-    1.  Save and close the file. 
+    1. Save and close the file. 
 
-1.  Update project to include latest version of Forms Core Components: 
+1. Update project to include latest version of Forms Core Components: 
 
-     1.  Open the [AEM Archetype Project Folder]/pom.xml for editing. 
-     1.  Set version of `core.forms.components.version` and `core.forms.components.af.version` to [latest Forms Core Components](https://github.com/adobe/aem-core-forms-components/tree/release/650) version.
-     
-         ![Mention latest version of Forms Core Components](/help/assets/latest-forms-component-version.png)
+     1. Open the [AEM Archetype Project Folder]/pom.xml for editing. 
+     1. Set version of `core.forms.components.version` and `core.forms.components.af.version` to [latest Forms Core Components](https://github.com/adobe/aem-core-forms-components/tree/release/650) version.
 
-     1.  Save and close the file.  
+     1. Save and close the file.  
 
 
-1.  After the AEM Archetype project is created successfully, build the deployment package for your environment. To build the package:
+1. After the AEM Archetype project is created successfully, build the deployment package for your environment. To build the package:
     
-    1.  Navigate to the root directory of your AEM Archetype project. 
+    1. Navigate to the root directory of your AEM Archetype project. 
 
 
-    1.  Run the following command to build the AEM Archetype project for your environment: 
+    1. Run the following command to build the AEM Archetype project for your environment: 
 
         ```Shell
         
@@ -118,7 +115,7 @@ To create an AEM Archetype 41 or [later](https://github.com/adobe/aem-project-ar
 
     After the AEM Archetype project is successfully built, an AEM Package is generated. You can find the package at [AEM Archetype Project Folder]\all\target\[appid].all-[version].zip
 
-1.  Use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en) to deploy the [AEM Archetype Project Folder]\all\target\[appid].all-[version].zip package on all the Author and Publish instances.
+1. Use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en) to deploy the [AEM Archetype Project Folder]\all\target\[appid].all-[version].zip package on all the Author and Publish instances.
 
 >[!NOTE]
 >
