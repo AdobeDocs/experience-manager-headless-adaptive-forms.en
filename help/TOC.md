@@ -15,14 +15,14 @@ hide: no
 + Quick Setup {#quick-setup}
     + [Enable Headless Adaptive Forms on AEM 6.5 Forms](enable-headless-adaptive-forms-and-core-components.md)
     + [Enable Headless Adaptive Forms on AEM Forms as a Cloud Service](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md)
-+  Tutorial {#tutorial}
++ Tutorial {#tutorial}
     + [Build Engaging Forms Using Core Components and Headless Adaptive Forms on AEM Forms as a Cloud Service](build-engaging-forms-using-core-components-and-headless-adaptive-forms-aem-forms-cloud-service.md)
     + [Build Engaging Forms Using Core Components and Headless Adaptive Forms on AEM 6.5 Forms](build-engaging-forms-using-core-components-and-headless-adaptive-forms-on-aem-65-forms.md)
 + Get Started using starter kit{#get-started}
-    + [Create and publish a headless form using starter kit](create-and-publish-a-headless-form.md)
+    + [Create and publish a headless form using a starter kit](create-and-publish-a-headless-form.md)
     + [Use a custom react library to render a headless form](use-google-material-ui-react-components-to-render-a-headless-form.md)
 + Create Headless adaptive forms {#authoring-headless-adaptive-forms}
-    + [Create a Headless adaptive form using Adaptive Forms editor](create-a-headless-adaptive-form.md)
+    + [Create a Headless adaptive form using the Adaptive Forms editor](create-a-headless-adaptive-form.md)
 + Developer Reference {#developer-reference}
     + [Developer portal](https://experienceleague.adobe.com/landing/aem-headless-forms/developer.html?lang=en)
     + [Code playground](https://experienceleague.adobe.com/landing/aem-headless-forms/developer/code.html?lang=en)

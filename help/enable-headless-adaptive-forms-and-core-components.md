@@ -1,8 +1,7 @@
 ---
 title: Enable Headless Adaptive Forms on AEM 6.5 Forms
 seo-title: Step-by-Step Guide for enabling Headless Adaptive Forms on AEM 6.5 Forms
-description: Learn how to enable headless adaptive forms on AEM 6.5 Forms with our step-by-step guide. Our tutorial walks you through the process, making it easy to integrate this powerful feature into your website and improve your user experience.
-seo-description: Learn how to enable headless adaptive forms on AEM 6.5 Forms with our step-by-step guide. Our tutorial walks you through the process, making it easy to integrate this powerful feature into your website and improve your user experience.
+description: Learn how to enable Headless Adaptive forms on AEM 6.5 Forms with Adobe's step-by-step guide. This tutorial walks you through the process, making it easy to integrate this powerful feature into your website and improve your user experience.
 contentOwner: Khushwant Singh
 role: Admin
 exl-id: e1a5e7e0-d445-4cca-b8d7-693d9531f075
@@ -11,25 +10,25 @@ exl-id: e1a5e7e0-d445-4cca-b8d7-693d9531f075
 
 To enable Headless Adaptive Forms on your AEM 6.5 Forms environment, set up an AEM Archetype 41 or later based project and deploy it to all of your Author and Publish instances. 
 
-By deploying the AEM Archetype 41 or later based project to your AEM 6.5 Forms instances, you gain the ability to [create Core Components based Adaptive Forms](create-a-headless-adaptive-form.md). These forms are represented in JSON format and  used as Headful and Headless Adaptive Forms, allowing for greater flexibility and customization across a range of channels, including mobile, web, and native apps.
+By deploying the AEM Archetype 41 or later based project to your AEM 6.5 Forms instances, you gain the ability to [create Core Components based Adaptive Forms](create-a-headless-adaptive-form.md). These forms are represented in JSON format and used as both `Headful` and `Headless` Adaptive Forms, allowing for greater flexibility and customization across a range of channels, including mobile, web, and native apps.
 
 ## Prerequisites {#prerequisites}
 
-Before enabling Headless Adaptive Forms on AEM 6.5 Forms environment, 
+Before enabling Headless Adaptive Forms on the AEM 6.5 Forms environment, 
 
-* [Upgrade to AEM 6.5 Forms Service Pack 16 (6.5.16.0) or later](https://experienceleague.adobe.com/docs/experience-manager-65/release-notes/aem-forms-current-service-pack-installation-instructions.html). 
+* [Upgrade to AEM 6.5 Forms Service Pack 16 (6.5.16.0) or later](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/release-notes/aem-forms-current-service-pack-installation-instructions). 
 
 * Install the latest release of [Apache Maven](https://maven.apache.org/download.cgi).
 
 * Install a plain text editor. For example, Microsoft Visual Studio Code. 
 
-## Create and deploy latest AEM Archetype based project 
+## Create and deploy the latest AEM Archetype based project 
 
 To create an AEM Archetype 41 or [later](https://github.com/adobe/aem-project-archetype) based project and deploy it to all of your Author and Publish instances:  
 
 1. Log in to your computer, hosting and running your AEM 6.5 Forms instance, as an Administrator.
 1. Open the command prompt or terminal. 
-1. Run the following command to create AEM Archetype 41 based project:
+1. Run the following command to create an AEM Archetype 41 based project:
 
     * Microsoft Windows
     
@@ -47,7 +46,7 @@ To create an AEM Archetype 41 or [later](https://github.com/adobe/aem-project-ar
 
      ```
 
-    * Linux or Apple macOS
+    * Linux&reg; or Apple macOS
 
      ```Shell
 
@@ -65,7 +64,7 @@ To create an AEM Archetype 41 or [later](https://github.com/adobe/aem-project-ar
 
     When you execute the above command, be sure to consider the following:
 
-    * Update the command to reflect the specific values for your environment, including the appTitle, appId, and groupId. Also, set the values for includeFormsenrollment to 'y'. If you use Forms Portal, set the _includeExamples=y_ option to include Forms Portal Core Components in your project.
+    * Update the command to reflect the specific values for your environment, including the appTitle, appId, and groupId. Also, set the values for includeFormsenrollment to `y`. If you use Forms Portal, set the _includeExamples=y_ option to include Forms Portal Core Components in your project.
 
 
 1. (Only for Archetype version 41 based projects) After the AEM Archetype project is created, enable themes for Core Components based Adaptive Forms. To enable themes:  
@@ -88,7 +87,7 @@ To create an AEM Archetype 41 or [later](https://github.com/adobe/aem-project-ar
 
     1. Save and close the file. 
 
-1. Update project to include latest version of Forms Core Components: 
+1. Update the project to include the latest version of Forms Core Components: 
 
      1. Open the [AEM Archetype Project Folder]/pom.xml for editing. 
      1. Set version of `core.forms.components.version` and `core.forms.components.af.version` to [latest Forms Core Components](https://github.com/adobe/aem-core-forms-components/tree/release/650) version.
@@ -115,22 +114,22 @@ To create an AEM Archetype 41 or [later](https://github.com/adobe/aem-project-ar
 
     After the AEM Archetype project is successfully built, an AEM Package is generated. You can find the package at [AEM Archetype Project Folder]\all\target\[appid].all-[version].zip
 
-1. Use the [Package Manager](https://experienceleague.adobe.com/docs/experience-manager-65/administering/contentmanagement/package-manager.html?lang=en) to deploy the [AEM Archetype Project Folder]\all\target\[appid].all-[version].zip package on all the Author and Publish instances.
+1. Use the [Package Manager](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/sites/administering/contentmanagement/package-manager) to deploy the [AEM Archetype Project Folder]\all\target\[appid].all-[version].zip package on all the Author and Publish instances.
 
 >[!NOTE]
 >
 >
 >
->In case you encounter difficulty accessing the login dialog on a publish instance to install the package through the Package Manager, try logging in through the following URL: http://[Publish Server URL]:[PORT]/system/console. This allows you access to login to Publish instance, allowing you to proceed with the installation process.
+>If you encounter difficulty accessing the login dialog box on a publish instance to install the package through the Package Manager, try logging in through the following URL: `http://[Publish Server URL]`:[PORT]/system/console. This process gives you access to log in to the Publishing instance, and lets you proceed with the installation process.
 
 
 The Core Components are enabled for your environment. A blank Core Components based Adaptive Form template and Canvas 3.0 theme are deployed to your environment, enabling you to [create Core Components based Adaptive Forms](create-a-headless-adaptive-form.md).
 
 ## Frequently Asked Questions
 
-### What are core components?
+### What are the core components?
 
-The [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) are a set of standardized Web Content Management (WCM) components for AEM to speed up development time and reduce maintenance cost of your websites. 
+The [Core Components](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction) are a set of standardized Web Content Management (WCM) components for AEM to speed up development time and reduce the maintenance cost of your websites. 
 
 ### What all is capabilities are added on enabling core components?
 
