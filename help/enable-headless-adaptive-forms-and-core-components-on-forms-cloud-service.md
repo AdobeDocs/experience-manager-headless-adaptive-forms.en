@@ -1,8 +1,6 @@
 ---
 title: Enable Headless Adaptive Forms on AEM Forms as a Cloud Service
-seo-title: Step-by-Step Guide for enabling Headless Adaptive Forms on AEM Forms as a Cloud Service
-description: Learn how to enable headless adaptive forms on AEM Forms as a Cloud Service with our step-by-step guide. Our tutorial walks you through the process, making it easy to enable this powerful feature for your AEM Forms environment.
-seo-description: Learn how to enable headless adaptive forms on AEM Forms as a Cloud Service with our step-by-step guide. Our tutorial walks you through the process, making it easy to enable this powerful feature for your AEM Forms environment.
+description: A step-by-step guide to enable Headless Adaptive forms in AEM Forms as a Cloud Service, simplifying setup and activation in your environment.
 solution: Experience Manager Forms
 feature: Adaptive Forms
 topic: Headless
@@ -20,38 +18,39 @@ Enabling Headless Adaptive Forms on AEM Forms as a Cloud Service, allows you to 
 
 ## Considerations 
 
-*   When you create a fresh AEM Forms as a Cloud Service program, [Headless Adaptive Forms are already enabled for your environments](#are-adaptive-forms-core-components-enabled-for-my-environment).
+* When you create a fresh AEM Forms as a Cloud Service program, [Headless Adaptive Forms are already enabled for your environments](#are-adaptive-forms-core-components-enabled-for-my-environment).
 
-*   If you have an older Forms as a Cloud Service program where Core Components are [not enabled](#enable-components), you can [add Adaptive Forms Core Components dependencies](#enable-headless-adaptive-forms-for-an-aem-forms-as-a-cloud-service-environment) to your AEM as a Cloud Service repository and deploy the repository to your Cloud Service environments to enable Headless Adaptive Forms.
+* If you are running an older Forms as a Cloud Service program where Core Components are [not enabled](#enable-components), first [add the Adaptive Forms Core Components dependencies](#enable-headless-adaptive-forms-for-an-aem-forms-as-a-cloud-service-environment) to your Cloud Service repository. Deploy the updated repository to each environment to enable Headless Adaptive forms.
 
-*   If your existing Cloud Service environment provides option to [create Core Components-based Adaptive Forms](create-a-headless-adaptive-form.md), Headless Adaptive Forms are are already enabled for your environment and you can serve Core Component based Adaptive Forms as headless forms to channels such as mobile, web, native apps, and services that require a headless representation of Adaptive Forms.
-
+* If your Cloud Service environment already lets you [create Core Components-based adaptive forms](create-a-headless-adaptive-form.md), Headless Adaptive forms are automatically enabled. You can then deliver those forms as headless experiences to mobile, web, native apps, or any service that requires them.
 
 >[!NOTE]
 >
 >
-> Adobe provides Adaptive Forms [starter kit (React App)](create-and-publish-a-headless-form.md) to help developers start quickly with Headless Adaptive Forms development, without enabling Headless Adaptive Forms on AEM Forms as a Cloud Service environment. You can enable the Headless Adaptive Forms on a Forms as a Cloud Service environment later after a [quick hands-on with developing headless forms](create-and-publish-a-headless-form.md). 
+> Adobe provides an Adaptive Forms [starter kit (React App)](create-and-publish-a-headless-form.md) to help developers start quickly with Headless Adaptive Forms development, without enabling Headless Adaptive Forms on AEM Forms as a Cloud Service environment. You can enable the Headless Adaptive Forms on a Forms as a Cloud Service environment later after a [quick hands-on with developing headless forms](create-and-publish-a-headless-form.md). 
 
 ## Enable Headless Adaptive Forms for an AEM Forms as a Cloud Service environment
 
 Perform the following steps, in the listed order, to enable Headless Adaptive Forms for an AEM Forms as a Cloud Service environment
 
-
+<!-- Missing image ALT tag -->
 ![](/help/assets/enable-headless-adaptive-forms-on-aem-forms-cloud-service.png)
 
 
 ## 1. Clone your AEM Forms as a Cloud Service Git Repository {#clone-git-repository} 
     
-1.  Log in to [Cloud Manager](https://my.cloudmanager.adobe.com/) and select your organization and program.
+1. Log in to [Cloud Manager](https://my.cloudmanager.adobe.com/) and select your organization and program.
 
-1.  Navigate to the **Pipelines** card from your **Program Overview** page, click the **Access Repo Info** button to access and manage your Git Repository. The page includes the following information:
+1. Navigate to the **Pipelines** card from your **Program Overview** page.
+
+1. Click the **Access Repo Info** button to access and manage your Git Repository. The page includes the following information:
 
     * URL to the Cloud Manager Git Repository.
     * Credentials of the Git Repository (Username and Password) Git username.
 
     Click **Generate Password** to view or generate the password. 
     
-1.  Open terminal or command prompt on your local computer and run the following command:
+1. Open terminal or command prompt on your local computer and run the following command:
 
     ```Shell 
 
@@ -64,9 +63,9 @@ Perform the following steps, in the listed order, to enable Headless Adaptive Fo
     
 ## 2. Add Adaptive Forms Core Components dependencies to your Git Repository {#add-adaptive-forms-core-components-dependencies}
 
-1.  Open your Git Repository folder in a plain text code editor. For example, VS Code.
-1.  Open the `[AEM Repository Folder]\pom.xml` file for editing.
-1.  Replace versions of the `core.forms.components.version`, `core.forms.components.af.version` and `core.wcm.components.version` components with versions specified in [core components documentation](https://github.com/adobe/aem-core-forms-components). If the component does not exist, add these components. 
+1. Open your Git Repository folder in a plain text code editor. For example, VS Code.
+1. Open the `[AEM Repository Folder]\pom.xml` file for editing.
+1. Replace versions of the `core.forms.components.version`, `core.forms.components.af.version` and `core.wcm.components.version` components with versions specified in [core components documentation](https://github.com/adobe/aem-core-forms-components). If the component does not exist, add these components. 
         
     ```XML
 
@@ -78,13 +77,11 @@ Perform the following steps, in the listed order, to enable Headless Adaptive Fo
         <core.wcm.components.version>2.21.2</core.wcmcomponents.version>
     </properties>
 
-    
-
     ```
      
     ![Mention latest version of Forms Core Components](/help/assets/latest-forms-component-version.png)
 
-1.  In the dependencies section of the `[AEM Repository Folder]\pom.xml` file, add the following dependencies, and save the file.
+1. In the dependencies section of the `[AEM Repository Folder]\pom.xml` file, add the following dependencies, and save the file.
 
     ```XML
 
@@ -147,7 +144,7 @@ Perform the following steps, in the listed order, to enable Headless Adaptive Fo
 
     ```
 
-1.  Open the `[AEM Repository Folder]/all/pom.xml` file for editing. Add the following dependencies in the `<embeddeds>` section and save the file.
+1. Open the `[AEM Repository Folder]/all/pom.xml` file for editing. Add the following dependencies in the `<embeddeds>` section and save the file.
 
     ```XML
 
@@ -217,7 +214,7 @@ Perform the following steps, in the listed order, to enable Headless Adaptive Fo
     >        </embedded>
     >   ```
 
-1.  In the `<dependencies>` section of the `[AEM Repository Folder]/all/pom.xml` file, add the following dependencies, and save the file:
+1. In the `<dependencies>` section of the `[AEM Repository Folder]/all/pom.xml` file, add the following dependencies, and save the file:
 
     ```XML
 
@@ -257,7 +254,7 @@ Perform the following steps, in the listed order, to enable Headless Adaptive Fo
 
     ```
 
-1.  Open the `[AEM Repository Folder]/ui.apps/pom.xml` for editing. Add the `af-core bundle` dependency, and save the file.
+1. Open the `[AEM Repository Folder]/ui.apps/pom.xml` for editing. Add the `af-core bundle` dependency, and save the file.
     
     ```XML
 
@@ -289,20 +286,20 @@ Perform the following steps, in the listed order, to enable Headless Adaptive Fo
     > `</dependency>`
 
 
-1.  Save and close the file. 
+1. Save and close the file. 
 
-## 3.  Update project to include latest version of Forms Core Components: 
+## 3.  Update the project to include the latest version of Forms Core Components: 
 
-1.  Open the [AEM Archetype Project Folder]/pom.xml for editing. 
+1. Open the [AEM Archetype Project Folder]/pom.xml for editing. 
 
 
 1.  Save and close the file.  
 
-## 4. Commit the updates to your Git Repository and run pipeline to deploy the repository {#Commit-the-updates-to-your-git-repository}
+## 4. Commit the updates to your Git Repository and run a pipeline to deploy the repository {#Commit-the-updates-to-your-git-repository}
 
-1.  To commit code to your Git Repository:
-    1.  Open the terminal or command prompt. 
-    1.  Navigate to your `[AEM Repository Folder]` and run the following commands in the listed order
+1. To commit code to your Git Repository:
+    1. Open the terminal or command prompt. 
+    1. Navigate to your `[AEM Repository Folder]` and run the following commands in the listed order
 
         ```Shell
     
@@ -314,16 +311,16 @@ Perform the following steps, in the listed order, to enable Headless Adaptive Fo
     
         ```
 
-1.  After the files are committed to Git Repository, [Run the pipeline](https://experienceleague.adobe.com/docs/experience-manager-cloud-manager/using/how-to-use/deploying-code.html).  
+1. After the files are committed to Git Repository, [Run the pipeline](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-manager/content/using/code-deployment).  
 
-    After pipeline run is successful, Adaptive Forms Core Components are enabled for the corresponding environment. Also, an Adaptive Forms (Core Components) template and Canvas 3.0 theme are added to your Forms as a Cloud Service environment, providing you with options to customize and create Core Components based Adaptive Forms. 
+    After the pipeline run is successful, Adaptive Forms Core Components are enabled for the corresponding environment. Also, an Adaptive Forms (Core Components) template and Canvas 3.0 theme are added to your Forms as a Cloud Service environment, providing you with options to customize and create Core Components based Adaptive Forms. 
 
 
 ## Frequently Asked Questions {#faq}
 
-### What are core components? {#core-components}
+### What are the core components? {#core-components}
 
-The [Core Components](https://experienceleague.adobe.com/docs/experience-manager-core-components/using/introduction.html) are a set of standardized Web Content Management (WCM) components for AEM to speed up development time and reduce maintenance cost of your websites.
+The [Core Components](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction) are a set of standardized Web Content Management (WCM) components for AEM to speed up development time and reduce the maintenance cost of your websites.
 
 ### What all capabilities are added on enabling core components? {#core-components-capabilities}
 
@@ -338,11 +335,11 @@ When the  Adaptive Forms Core Components are enabled for your environment, a bla
 
 To check that Adaptive Forms Core Components are enabled for your environment:
 
-1.  [Clone your AEM Forms as a Cloud Service repository](#1-clone-your-aem-forms-as-a-cloud-service-git-repository). 
+1. [Clone your AEM Forms as a Cloud Service repository](#1-clone-your-aem-forms-as-a-cloud-service-git-repository). 
 
-1.  Open the `[AEM Repository Folder]/all/pom.xml` file of your AEM Forms Cloud Service Git Repository. 
+1. Open the `[AEM Repository Folder]/all/pom.xml` file of your AEM Forms Cloud Service Git Repository. 
 
-1.  Search for the following dependencies:
+1. Search for the following dependencies:
     
     * core-forms-components-af-core
     * core-forms-components-core

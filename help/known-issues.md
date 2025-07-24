@@ -1,6 +1,6 @@
 ---
-title: Headless adaptive forms known issues
-description: Headless adaptive forms known issues
+title: Known Issues of Headless Adaptive Forms
+description: Known issues of Headless adaptive forms.
 keywords: headless, adaptive form, known issues
 hide: yes
 ---
@@ -12,7 +12,7 @@ hide: yes
 * Panel level validations if violated do not throw any error. (CQ-4342373)
 * File validations if violated do not throw any error. (CQ-4342372)
 * Custom properties are not dynamic. (CQ-4342376)
-* Changing file data dynamically on change event using expressions leads to an infinite loop. (CQ-4342377)
-* File attachment doesn't support help text. (CQ-4342370)
-* Required checkbox does not show error upon submit, if not selected. (CQ-4342371)
-* aria-label is not added in file attachment. (CQ-4341494)
+* Changing file data dynamically on a change event using expressions leads to an infinite loop. (CQ-4342377)
+* The file attachment does not support Help text. (CQ-4342370)
+* The required checkbox does not show error upon submit, if not selected. (CQ-4342371)
+* aria-label is not added in the file attachment. (CQ-4341494)

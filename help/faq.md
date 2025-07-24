@@ -1,5 +1,5 @@
 ---
-title: Frequently asked questions
+title: Frequently Asked Questions About Headless Adaptive Forms
 description: Frequently asked questions
 solution: Experience Manager Forms
 feature: Adaptive Forms
@@ -14,7 +14,8 @@ exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
 
 ## Should I know React.js to use Headless adaptive forms?
 
-You can use any framework, library, or language to render Headless adaptive forms and use our REST APIs to validate and submit the forms. AF-core library, provided OOTB, is framework independent. React-Render and React-componet libraries, provided OOTB, are for your convenience. You can develop your own components and are not limited to use these. 
+You can use any framework, library, or language to render Headless adaptive forms and use Adobe's REST APIs to validate and submit the forms. The AF-core library, provided to you out-of-the-box, is framework independent. React-Render and React-componet libraries, also provided to you out-of-the-box, are for your convenience. You can build your own components; you are not limited to the ones provided.
+ 
 
 <!-- 
 ## Did Adobe release a new AEM Archetype for Headless adaptive forms?
@@ -32,7 +33,7 @@ You can use the starter app to start developing and styling your Headless adapti
 You can use the starter app to start developing and styling your Headless adaptive forms. Later on, you can use the 
 archetype project to deploy the finished Headless adaptive forms and corresponding custom code, created using starter app, to Forms as a Cloud Service environment. The Forms as a Cloud Service environment helps you test and productionize the forms. -->
 
-## Where can I get a preview a Headless adaptive form? {#storybook-example}
+## Where can I get a preview of a Headless adaptive form? {#storybook-example}
 
 You can use the starter app to render and preview a custom Headless adaptive form. You can also modify a [storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--introduction) example to preview a Headless adaptive form.
 
@@ -44,11 +45,11 @@ Headless adaptive forms are based on [standard specification](/help/assets/headl
 
 ## Do Headless adaptive forms support cascading fields?
 
-In cascading fields, content of second field depends on content chosen in the first field. The [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/adaptive-form-dynamic-behaviour--options&args=formJson.items[0].fieldType:drop-down;formJson.items[0].minimum:!undefined;formJson.items[0].maximum:!undefined;formJson.items[0].label.value:Choose+number+of+options;formJson.items[0].enum[0]:1;formJson.items[0].enum[1]:2;formJson.items[0].enum[2]:3;formJson.items[1].fieldType:drop-down) provides an example of cascading fields.
+In cascading fields, the content of the second field depends on the content chosen in the first field. The [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/adaptive-form-dynamic-behaviour--options&args=formJson.items[0].fieldType:drop-down;formJson.items[0].minimum:!undefined;formJson.items[0].maximum:!undefined;formJson.items[0].label.value:Choose+number+of+options;formJson.items[0].enum[0]:1;formJson.items[0].enum[1]:2;formJson.items[0].enum[2]:3;formJson.items[1].fieldType:drop-down) provides an example of cascading fields.
 
 ## Do Headless adaptive forms allow prefilling forms with personalized data?
 
-Headless adaptive forms allows prefilling forms with personalized data. The [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data) provides an example of how to prefill a Headless adaptive form.
+Headless adaptive forms allow prefilling forms with personalized data. The [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data) provides an example of how to prefill a Headless adaptive form.
 
 <!-- >
 ## Can I use existing Adaptive Forms editor to create a Headless adaptive form?
@@ -57,7 +58,7 @@ At this moment, you use the Adaptive Form Editor to specify the JSON structure a
 
 ## Can I use Headless adaptive forms with Angular SPA?
 
-You can use the Web SDK to integrate Headless adaptive forms with Angular SPA. It is independent of any framework. You can use React SDK as a reference. 
+You can use the Web SDK to integrate Headless adaptive forms with Angular SPA. It is independent of any framework. You can use the React SDK as a reference. 
 
 <!-- ## Should the `-r prerelease` switch be used every time to start the AEM SDK instance or only for the first time?
 
@@ -76,7 +77,7 @@ You do not require a license.properties file to run AEM Cloud Service SDK.
 
 ## Is there any plugin to make development easier for Headless AF?
 
-Yes, an extension is available for Microsoft Visual Studio Code. It provides a convenient way to author the Headless adaptive forms JSON manually.
+Yes — a Visual Studio Code extension lets you manually author headless adaptive forms in JSON.
 
 ## Can a Headless adaptive form connect to any CRM to read or write data?
 

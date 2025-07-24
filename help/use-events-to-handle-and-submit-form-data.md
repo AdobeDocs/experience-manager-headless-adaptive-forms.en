@@ -1,6 +1,6 @@
 ---
 title: Use events to handle and submit form headless adaptive forms data
-description: Use events to handle and submit form headless adaptive forms data
+description: Use events to handle and submit form headless adaptive forms data.
 hide: no
 ---
 
@@ -10,10 +10,10 @@ Until now, you learn to [create a custom Headless Adaptive Form](create-and-publ
 
 This article exhibits submitting data to a Rest endpoint. You can configure your form to submit the data to any data source
 
-## Understanding the data model
+## Understand the data model
 
 
 
-## Using events to communicate with the data model 
+## Use events to communicate with the data model 
 
-## Using events to submit data to a data source 
+## Use events to submit data to a data source
