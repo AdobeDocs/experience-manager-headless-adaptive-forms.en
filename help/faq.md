@@ -79,6 +79,29 @@ You do not require a license.properties file to run AEM Cloud Service SDK.
 
 Yes — a Visual Studio Code extension lets you manually author headless adaptive forms in JSON.
 
+## What is the recommended approach for mobile or offline forms? {#mobile-offline-forms}
+
+Build your own native app and fetch form definitions via the Headless Adaptive Forms API. You can optionally implement offline support (for example, local storage and sync). See [Mobile forms best practices](mobile-forms-best-practices.md) for the recommended approach and links to APIs.
+
+## How do you use GraphQL or headless APIs with AEM Forms?
+
+AEM Headless Adaptive Forms use **HTTP/REST APIs**, not GraphQL. Your app calls these APIs to list forms, fetch a form definition (JSON), validate, submit, and track submission status. Use the [Headless adaptive forms HTTP APIs](https://opensource.adobe.com/aem-forms-af-runtime/api/) for the full reference. For how forms are fetched and rendered, see [Architecture](architecture.md) and [Understanding headless forms](understanding-headless-forms.md).
+
+## How can I implement and style headless forms using React components in Adobe AEM Forms?
+
+You implement and style headless forms by using your own React components and CSS (or a UI library such as Material UI). The form logic—state, validation, and rules—comes from the Forms Web SDK and the form JSON; your app supplies the UI that renders it.
+
+* To style a headless form with a React UI library, see [Use a custom react library to render a headless form](use-google-material-ui-react-components-to-render-a-headless-form.md).
+* To build and map custom React components to form fields, see [Use custom components to render a headless form](developing-for-headless-forms-using-your-own-components.md).
+
+For concepts such as when to use headless forms, state management, and validation, see [Understanding headless forms](understanding-headless-forms.md).
+
+## How can I implement and customize AEM Forms with custom CSS, themes, rule editors, and headless forms?
+
+**Headless forms:** Styling and look-and-feel are entirely under your control. You use your own React (or other) components and your own CSS; there are no built-in themes. See [Use a custom react library to render a headless form](use-google-material-ui-react-components-to-render-a-headless-form.md) and [Use custom components to render a headless form](developing-for-headless-forms-using-your-own-components.md) to implement and style headless forms.
+
+**Classic AEM Forms (themes, rule editor, visual editor):** Custom CSS, the theme editor, and the rule editor apply to the classic (non-headless) Adaptive Forms authoring experience. For those topics, see the [AEM Forms documentation](https://experienceleague.adobe.com/docs/experience-manager-forms.html) on Experience League.
+
 ## Can a Headless adaptive form connect to any CRM to read or write data?
 
 You can use Microsoft Dynamics and Salesforce to submit or prefill a Headless adaptive form. Apart from CRMs, Headless adaptive forms support submit or prefill using REST endpoints, email, and custom submit actions.

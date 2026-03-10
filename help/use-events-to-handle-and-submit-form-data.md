@@ -1,7 +1,8 @@
 ---
 title: Use events to handle and submit form headless adaptive forms data
 description: Use events to handle and submit form headless adaptive forms data.
-hide: no
+hide: yes
+hidefromtoc: yes
 ---
 
 # Use events to handle and submit form headless adaptive forms data {#using-events}

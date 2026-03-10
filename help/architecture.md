@@ -45,7 +45,7 @@ A typical Headless adaptive forms architecture constitutes an Adobe Experience M
 
 **Headless adaptive forms**: A Headless adaptive form is represented as a .json file. The JSON structure defines components, constraints, and structure of a form.
 
-**Front-end Apps**: Front-end apps like, SPA (Single Page Applications), Mobile Apps, JavaScript Apps, consume Headless adaptive forms (the JSON Form Representation) and render the form on a client. You can use the React renderer component shipped with Headless adaptive forms to render an adaptive form or build your own custom component to render Headless adaptive forms natively.
+**Front-end Apps**: Front-end apps like, SPA (Single Page Applications), Mobile Apps, JavaScript Apps, consume Headless adaptive forms (the JSON Form Representation) and render the form on a client. You can use the React renderer component shipped with Headless adaptive forms to render an Adaptive Form or build your own custom component to natively render Headless adaptive forms. For native mobile and offline form use cases, the recommended approach is to build your own app and fetch form definitions via the API; see [Mobile forms best practices](mobile-forms-best-practices.md).
 
 <!-- ### Understanding Headless adaptive forms definition --> 
 

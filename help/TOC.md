@@ -12,6 +12,7 @@ hide: no
 + [Overview](overview.md)
 + [Overview Testing](overview-testing.md)
 + [Architecture](architecture.md)
++ [Understanding headless forms - Concepts and FAQ](understanding-headless-forms.md)
 + Quick Setup {#quick-setup}
     + [Enable Headless Adaptive Forms on AEM 6.5 Forms](enable-headless-adaptive-forms-and-core-components.md)
     + [Enable Headless Adaptive Forms on AEM Forms as a Cloud Service](enable-headless-adaptive-forms-and-core-components-on-forms-cloud-service.md)
@@ -21,6 +22,9 @@ hide: no
 + Get Started using starter kit{#get-started}
     + [Create and publish a headless form using a starter kit](create-and-publish-a-headless-form.md)
     + [Use a custom react library to render a headless form](use-google-material-ui-react-components-to-render-a-headless-form.md)
+    + [Use custom components to render a headless form](developing-for-headless-forms-using-your-own-components.md)
+    + [Use events to handle and submit form data](use-events-to-handle-and-submit-form-data.md)
+    + [Mobile forms best practices](mobile-forms-best-practices.md)
 + Create Headless adaptive forms {#authoring-headless-adaptive-forms}
     + [Create a Headless adaptive form using the Adaptive Forms editor](create-a-headless-adaptive-form.md)
 + Developer Reference {#developer-reference}

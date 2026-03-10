@@ -23,6 +23,8 @@ Headless adaptive forms help you do the following:
 * Reuse your proprietary UI components with forms applications.
 * Leverage the [power of Adobe Experience Manager Forms](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/forms/getting-started/introduction-aem-forms).
 
+For mobile and offline form use cases, the recommended approach is to build your own native app and fetch form definitions via the Headless Adaptive Forms API. See [Mobile forms best practices](mobile-forms-best-practices.md) for details.
+
 In addition, you have the freedom to develop your own components to render a form using any UI framework and programming language of your choice. You can also use React components available out-of-the-box to render a Headless adaptive form.
 
 ## Who can use Headless adaptive forms? {#who-can-use-headless-adaptive-forms}
