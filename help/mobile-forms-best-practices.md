@@ -8,7 +8,7 @@ role: Admin, Developer
 level: Beginner, Intermediate
 keywords: mobile forms, native app, offline forms, headless API
 hide: no
-exl-id: b8e2f1a4-5c6d-4e2a-9f3b-1d4e5a6c7b8d
+exl-id: 6f25039f-61fc-4366-9e17-6b2809162c58
 ---
 # Mobile forms best practices {#mobile-forms-best-practices}
 

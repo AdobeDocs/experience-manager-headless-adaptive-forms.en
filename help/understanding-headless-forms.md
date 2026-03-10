@@ -8,9 +8,8 @@ role: Admin, Developer
 level: Beginner, Intermediate
 keywords: headless forms, headless form library, adaptive forms, state management, validation, design system, SSR, CMS
 hide: no
-exl-id: a1b2c3d4-e5f6-7890-abcd-ef1234567890
+exl-id: 539da3e9-25c5-4e26-ba4e-f68cf849bca4
 ---
-
 # Understanding headless forms - Concepts and FAQ {#understanding-headless-forms}
 
 This guide answers common questions about headless forms in general and how they apply to AEM Headless Adaptive Forms. Use it to decide when to use a headless approach and how to implement, style, and integrate forms in your stack.
