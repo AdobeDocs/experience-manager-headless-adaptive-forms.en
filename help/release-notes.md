@@ -1,7 +1,7 @@
 ---
 title: AEM Headless Adaptive Forms Overview
 description: Overview for AEM Headless adaptive forms.
-hide: yes
+hide: true
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 ---
 
@@ -41,6 +41,7 @@ Headless adaptive forms receive improvements on an ongoing basis. To stay up to 
 
 * The service was executing some event handlers twice. The issue is fixed.
 * Fixing Data Generation with different values of dataRef, name and type.
+-->
 
 <!-- ### React Renderer component -->
 
@@ -74,7 +75,7 @@ Core Components are a set of standardized Web Content Management (WCM) component
 
 ### Adaptive Forms V2 Specifications
 
-Headless adaptive forms specification provides detailed information on all the components, constraints, and methods available to define Headless adaptive forms. The specification is available in [PDF](/help/assets/Headless-Adaptive-Form-Specification.pdf) format.
+Headless adaptive forms specification provides detailed information on all the components, constraints, and methods available to define Headless adaptive forms. The specification is available in [PDF](/help/assets/headless-adaptive-forms-specification.pdf) format.
 
 ### HTTP and JS API
 
@@ -84,7 +85,8 @@ Headless adaptive forms specification provides detailed information on all the c
 
 [Visual Studio Code extension](visual-studio-code-extension-for-headless-adaptive-forms.md) to help create a valid JSON structure. It provides IntelliSense support and validation for JSON structure of forms along with common functions like add, delete, or rename components of a JSON structure.  
 
-<!-- ## What's next
+<!-- 
+## What's next
 
 The following features would be available in upcoming releases:
 

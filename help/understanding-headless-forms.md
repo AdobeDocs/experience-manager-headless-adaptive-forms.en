@@ -7,7 +7,7 @@ topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
 keywords: headless forms, headless form library, adaptive forms, state management, validation, design system, SSR, CMS
-hide: no
+index: true
 exl-id: 539da3e9-25c5-4e26-ba4e-f68cf849bca4
 ---
 # Understanding headless forms - Concepts and FAQ {#understanding-headless-forms}

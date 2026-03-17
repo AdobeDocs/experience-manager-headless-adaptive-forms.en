@@ -7,7 +7,7 @@ topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
 keywords: Headless CMS, adaptive forms, Headless UI, Headful CMS, voice assistants, alexa, chatbots, WhatsApp architecture
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: f6a383ea-684b-479d-a15f-8ebced75635e
 ---
@@ -148,8 +148,7 @@ In addition, you have the freedom to develop your own components to render a for
         <h2 style="margin-top: 10px;">Heading 3</h2>
         <p>Description 3</p>
     </div>
-    <!-- Add more cards as needed -->
-</div>
+    </div>
 
 
 
@@ -170,10 +169,10 @@ In addition, you have the freedom to develop your own components to render a for
         <h2 style="margin-top: 10px;">Heading 3</h2>
         <p>Description 3</p>
     </div>
-    <!-- Add more cards as needed -->
 </div>
 
 -->
+<!-- Add more cards as needed -->
 
 ## Who can use Headless adaptive forms? {#who-can-use-headless-adaptive-forms}
  

@@ -6,7 +6,7 @@ feature: Adaptive Forms
 topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
-hide: no
+index: true
 exl-id: 476509d5-f4c1-4d1c-b124-4c278f67b1ef
 ---
 

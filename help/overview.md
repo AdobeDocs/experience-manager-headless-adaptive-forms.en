@@ -7,7 +7,7 @@ topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
 keywords: Headless CMS, adaptive forms, Headless UI, Headful CMS, voice assistants, alexa, chatbots, WhatsApp architecture
-hide: no
+index: true
 exl-id: 3b5b955b-d59c-43d9-9cc4-3244a08f80dc
 ---
 # Introduction
