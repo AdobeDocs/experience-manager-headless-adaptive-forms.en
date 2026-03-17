@@ -153,7 +153,8 @@ You can use any IDE for developing Headless adaptive forms. Adobe provides an ex
     ![Installing extension](/help/assets/install-extension.png)
 -->
 
-<!-- ## Create and setup a react app
+<!--
+## Create and setup a react app
 
 Adaptive forms renderer component is a react based component. It requires a react app to run and render a Headless adaptive form. To create and setup react app:
 
