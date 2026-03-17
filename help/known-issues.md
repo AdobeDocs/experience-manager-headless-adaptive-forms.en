@@ -2,7 +2,7 @@
 title: Known Issues of Headless Adaptive Forms
 description: Known issues of Headless adaptive forms.
 keywords: headless, adaptive form, known issues
-hide: yes
+hide: true
 ---
 
 # Known issues {#known-issues}

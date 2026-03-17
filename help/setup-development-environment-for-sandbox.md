@@ -1,7 +1,7 @@
 ---
 title: Set up a development environment for a Forms as a Cloud Service Sandbox
 description: Set up a development environment for a Forms as a Cloud Service Sandbox.
-hide: yes
+hide: true
 exl-id: befac9ad-d2c4-4705-96fc-f0ea0ef823b8
 ---
 # Setup development environment for Headless adaptive forms on Cloud Service
@@ -137,19 +137,19 @@ Depending on the operating system, run the maven command to create an Experience
 1. Open the command prompt with Administrative privileges (Run command prompt or bash shell as an administrator).
 1. Run the below command:
 
-      ``` shell
+    ``` shell
 
-        mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate ^
-        -D archetypeGroupId=com.adobe.aem ^
-        -D archetypeArtifactId=aem-project-archetype ^
-        -D archetypeVersion=37 ^
-        -D appTitle=myheadlessform ^
-        -D appId=myheadlessform ^
-        -D groupId=com.myheadlessform ^
-        -D includeFormsenrollment="y" ^
-        -D includeFormsheadless="y" 
-    
-      ```
+      mvn -B org.apache.maven.plugins:maven-archetype-plugin:3.2.1:generate ^
+      -D archetypeGroupId=com.adobe.aem ^
+      -D archetypeArtifactId=aem-project-archetype ^
+      -D archetypeVersion=37 ^
+      -D appTitle=myheadlessform ^
+      -D appId=myheadlessform ^
+      -D groupId=com.myheadlessform ^
+      -D includeFormsenrollment="y" ^
+      -D includeFormsheadless="y" 
+  
+    ```
 
 &trade;&trade;&trade;
 
@@ -161,8 +161,9 @@ Depending on the operating system, run the maven command to create an Experience
       * The **Blank with core components** template with [core components](https://experienceleague.adobe.com/en/docs/experience-manager-core-components/using/introduction).
       * A frontend React module, `ui.frontend.react.forms.af`. It helps you render Headless adaptive form in a react app.  
 
-+++&reg;&reg;&reg;
++++
 
+<!-- Note to author: `&reg;&reg;&reg;` after `+++` prevents the accordion from working properly -->
 
 +++ Apple macOS or Linux&reg;
 
@@ -184,6 +185,7 @@ Depending on the operating system, run the maven command to create an Experience
       ```
       
 &trade;&trade;&trade;
+
   * Set `appTitle` to define the title and components groups.
   * Set `appId` to define the Maven artifactId, the component, config, content folder names, and client library names.
   * Set `groupId` to define the Maven groupId and the Java&trade; Source Package.

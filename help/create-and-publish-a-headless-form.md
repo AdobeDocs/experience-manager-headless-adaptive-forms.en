@@ -6,7 +6,7 @@ feature: Adaptive Forms
 topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
-hide: no
+index: true
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
 ---
 
@@ -95,9 +95,11 @@ After setting up the starter kit, you can preview the sample Headless Adaptive f
 
    ![](/help/assets/rename-env-file.png)
 
-    <!-- The options in the .env file help you configure source of the forms definantion (.JSON):
+    <!-- 
+    The options in the .env file help you configure source of the forms definantion (.JSON):
     *  To source forms definantion (.JSON) from an AEM Server, set USE_LOCAL_JSON option to false, use the AEM_URL option to specify URL  of your AEM Server, and set the AEM_FORM_PATH option to path of your adaptive form.
-    *  To source forms definantion (.JSON) form-model.json file included in the starter-kit, set USE_LOCAL_JSON option to false. -->
+    *  To source forms definantion (.JSON) form-model.json file included in the starter-kit, set USE_LOCAL_JSON option to false. 
+    -->
   
 1. Use the following command to run the app: 
 

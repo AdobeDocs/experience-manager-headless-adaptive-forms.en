@@ -2,7 +2,7 @@
 title: Getting Started with Headless Adaptive Forms
 description: Getting Started with Headless Adaptive Forms
 keywords: headless, adaptive form, tutorial
-hide: yes
+hide: true
 ---
 
 # Getting Started with Headless Adaptive Forms

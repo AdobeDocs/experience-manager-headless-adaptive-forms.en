@@ -7,7 +7,7 @@ topic: Headless
 role: Admin, Developer
 level: Beginner, Intermediate
 keywords: headless, adaptive form, FAQ
-hide: no
+index: true
 exl-id: 5bfc307d-96a3-4007-b65f-32176ecdb710
 ---
 # Frequently asked questions (FAQ) {#headless-adaptive-forms-faq}
@@ -28,10 +28,12 @@ You can use Archetype 37 with flag `includeFormsheadless` or later flag to creat
 
 You can use the starter app to start developing and styling your Headless adaptive forms. You require Forms as a Cloud Service to host and serve Headless adaptive forms along with backend forms capabilities. 
 
-<!-- ## Do I need an archetype project to develop Headless adaptive forms?
+<!-- 
+## Do I need an archetype project to develop Headless adaptive forms?
 
 You can use the starter app to start developing and styling your Headless adaptive forms. Later on, you can use the 
-archetype project to deploy the finished Headless adaptive forms and corresponding custom code, created using starter app, to Forms as a Cloud Service environment. The Forms as a Cloud Service environment helps you test and productionize the forms. -->
+archetype project to deploy the finished Headless adaptive forms and corresponding custom code, created using starter app, to Forms as a Cloud Service environment. The Forms as a Cloud Service environment helps you test and productionize the forms. 
+-->
 
 ## Where can I get a preview of a Headless adaptive form? {#storybook-example}
 
@@ -51,16 +53,18 @@ In cascading fields, the content of the second field depends on the content chos
 
 Headless adaptive forms allow prefilling forms with personalized data. The [Storybook](https://opensource.adobe.com/aem-forms-af-runtime/storybook/?path=/story/reference-examples--prefill-form-with-personalised-data) provides an example of how to prefill a Headless adaptive form.
 
-<!-- >
+<!--
 ## Can I use existing Adaptive Forms editor to create a Headless adaptive form?
 
-At this moment, you use the Adaptive Form Editor to specify the JSON structure and set submit action for the forms. Support for drag-and-drop components, applying rules using editor, and more editor-related options would be available later in the beta phase. Keep a watch on release notes.  -->
+At this moment, you use the Adaptive Form Editor to specify the JSON structure and set submit action for the forms. Support for drag-and-drop components, applying rules using editor, and more editor-related options would be available later in the beta phase. Keep a watch on release notes.  
+-->
 
 ## Can I use Headless adaptive forms with Angular SPA?
 
 You can use the Web SDK to integrate Headless adaptive forms with Angular SPA. It is independent of any framework. You can use the React SDK as a reference. 
 
-<!-- ## Should the `-r prerelease` switch be used every time to start the AEM SDK instance or only for the first time?
+<!--
+## Should the `-r prerelease` switch be used every time to start the AEM SDK instance or only for the first time?
 
 During the limited release program, use the `-r prerelease` switch every time you start the AEM SDK instance. 
 
@@ -68,11 +72,9 @@ During the limited release program, use the `-r prerelease` switch every time yo
 
 Adobe Experience Manager Forms as a Cloud Service feature archive provides tools to create Headless adaptive forms on the local development environment. To install the feature archive, see [Setup development environment](setup-development-environment.md).
 
-<!-- 
 ## Where do one get the license.properties file from?
 
 You do not require a license.properties file to run AEM Cloud Service SDK. 
-
 -->
 
 ## Is there any plugin to make development easier for Headless AF?

@@ -8,7 +8,7 @@ role: Admin
 level: Beginner, Intermediate
 contentOwner: Khushwant Singh
 docset: CloudService
-hide: yes
+hide: true
 hidefromtoc: yes
 exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
 ---
