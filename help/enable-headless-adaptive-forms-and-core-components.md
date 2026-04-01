@@ -5,6 +5,13 @@ description: Learn how to enable Headless Adaptive forms on AEM 6.5 Forms with A
 contentOwner: Khushwant Singh
 role: Admin
 exl-id: e1a5e7e0-d445-4cca-b8d7-693d9531f075
+TQID: https://experienceleague.adobe.com/-jg00RrTORgL35qnU6vjy58UibBQE05bRWmvvYkMjSU
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 ---
 # Enable Headless Adaptive Forms on AEM 6.5 Forms {#enable-headless-adaptive-forms-on-aem-65-forms}
 
