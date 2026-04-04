@@ -2,7 +2,6 @@
 title: Use events to handle and submit form headless adaptive forms data
 description: Use events to handle and submit form headless adaptive forms data.
 hide: true
-hidefromtoc: yes
 exl-id: f80a0d44-fa76-4df7-883e-3f5d0384a2a5
 ---
 # Use events to handle and submit form headless adaptive forms data {#using-events}

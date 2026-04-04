@@ -9,7 +9,6 @@ level: Beginner, Intermediate
 contentOwner: Khushwant Singh
 docset: CloudService
 hide: true
-hidefromtoc: yes
 exl-id: 7afff771-1296-4162-84c5-c8266b94af2f
 ---
 # Enable Headless Adaptive Forms on AEM Forms as a Cloud Service {#enable-headless-adaptive-forms-on-aem-forms-cloud-service}
