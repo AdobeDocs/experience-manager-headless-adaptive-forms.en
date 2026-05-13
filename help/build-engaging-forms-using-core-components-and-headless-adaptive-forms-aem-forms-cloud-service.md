@@ -5,6 +5,16 @@ description: Build Engaging Forms Using Core Components and Headless
 seo-description: Build Engaging Forms Using Core Components and Headless
 topic-tags: develop
 exl-id: ef99ffe9-4a37-4f0a-a4d3-78976c92220f
+TQID: https://experienceleague.adobe.com/vxO7ZkfNQ001uvMujjDotL5le6Q0gYN-YGoYMThWbAs
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+role_v2:
+  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+    internal-label: Developer
+topic_v2:
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
 ---
 # Build Engaging Forms Using Core Components and Headless Adaptive Forms on AEM Forms as a Cloud Service {#build-engaging-forms-using-core-components-and-headless}
 

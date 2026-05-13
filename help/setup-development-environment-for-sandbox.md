@@ -3,6 +3,19 @@ title: Set up a development environment for a Forms as a Cloud Service Sandbox
 description: Set up a development environment for a Forms as a Cloud Service Sandbox.
 hide: true
 exl-id: befac9ad-d2c4-4705-96fc-f0ea0ef823b8
+TQID: https://experienceleague.adobe.com/r2jtS8Z3QIN99-a-z2lLLtW6tVroO3FF--CmzklJVig
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
+feature_v2:
+  - id: a01bfd36-4ab8-4bf8-9dc0-5b45b890552e
+    internal-label: APIs
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 ---
 # Setup development environment for Headless adaptive forms on Cloud Service
 
