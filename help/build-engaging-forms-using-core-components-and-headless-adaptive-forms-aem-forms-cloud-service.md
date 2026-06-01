@@ -63,13 +63,13 @@ In this lesson, you familiarize yourself with AEM Forms as a Cloud Service envir
 1. Open your browser and enter the URL of the Cloud Service author environment. <!-- URL is 404! EXPLAIN THE URL IS FOR ILLUSTRATION PURPOSES ONLY? For example: [https://author-p105303-e986623.adobeaemcloud.com/ui#/aem/aem/start.html](https://author-p105303-e986623.adobeaemcloud.com/ui%23/aem/aem/start.html) -->
 
 1. Log in to the Cloud Service author environment. 
-    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028113829.png){width="50%"}
 
 1. To navigate to the AEM Forms UI, click **Forms > Forms & Documents**.
 
 
 
-    ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028113929.png){width="50%"}
 
     Dismiss any pop-ups related to preferences or information. All the available forms are displayed.
     
@@ -90,9 +90,9 @@ In this lesson, as a business user, you will author an adaptive form for multipl
 
     1. Open <https://pipedream.com/requestbin> in a new browser tab.
     1. Click **Create a public bin** and copy the endpoint URL.
-        ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
+        ![](/help/assets/screenshot2028114329.png){width="50%"}
 
-        ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
+        ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%"}
 
 1. Author an adaptive form using the Wizard interface:
 
@@ -118,16 +118,16 @@ In this lesson, as a business user, you will author an adaptive form for multipl
 
     1. Drag and drop components from the Components browser to create a form, similar to the following:
 
-        ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
+        ![](/help/assets/screenshot2028115129.png){width="50%"}
 
 1. Add validations to the form:
 
     1. Click the **Phone number** component so that the pop-up menu is displayed. Click the **Wrench icon** in the menu to configure the field.
 
     1. Open the **validations tab**, mark the field **Required**, and click **Done**. The success message is displayed.
-        ![](/help/assets/screenshot2028123529.png){width="50%" align="left"}
+        ![](/help/assets/screenshot2028123529.png){width="50%"}
         
-        ![](/help/assets/screenshot2028123629.png){width="50%" align="left"}
+        ![](/help/assets/screenshot2028123629.png){width="50%"}
 
 1. Preview and submit the form.
 
@@ -180,7 +180,7 @@ Set up a local repository of the theme:
 
 1. Open the Command Prompt or shell with administrator rights:
 
-    ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028115829.png){width="50%"}
 
 1. On the Command Prompt, use the following command to navigate to **c:\git** folder
     
@@ -212,15 +212,15 @@ Set up a local repository of the theme:
 
 1. Select **Trust the authors of all files in the parent folder** and click **Yes, I trust the authors**.
 
-    ![](/help/assets/screenshot2028116229.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028116229.png){width="50%"}
 
 1. To render the form hosted on your cloud service publish environment, rename the `env_template` file.  To rename the file, right click the **env_template** file and select the **Rename** option.
 
-    ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028116429.png){width="50%"}
 
      </br>
 
-    ![](/help/assets/screenshot2028116529.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028116529.png){width="50%"}
 
 1. Set the following values for the variables in the .env file and save the file:
 
@@ -228,7 +228,7 @@ Set up a local repository of the theme:
     
     * **AEM_ADAPTIVE_FORM**: Specify the path of the form. For example, if the form path is `/content/forms/af/registration`, the value of this variable would be `registration`.
 
-        ![](/help/assets/screenshot2028116429.png){width="50%" align="left"}
+        ![](/help/assets/screenshot2028116429.png){width="50%"}
 
 1. Create a local user in the AEM environment.
 
@@ -272,12 +272,12 @@ Set up a local repository of the theme:
     >If you experience a blank screen in browser after executing the `npm run live` command for more than 3-4 minutes, change `localhost` in browser URL to 127.0.0.1 and hit **Enter**. 
 
     
-    ![](/help/assets/screenshot2028115129.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028115129.png){width="50%"}
 
 
 1. In Visual Studio Code, open the `PROJECT\src\site\_variables.scss` file. Notice the `$error` color is a shade of RED.
 
-    ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028120729.png){width="50%"}
 
 1. In the browser, submit the form to see the Red color in the **First Name** field.
 
@@ -285,7 +285,7 @@ Set up a local repository of the theme:
 
 1. Set the **$error** color to **#5736eb** and save the file. 
 
-    ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028120729.png){width="50%"}
 
 1. Refresh the browser and submit the form. Notice that the error color on the first name field has changed accordingly.
     
@@ -310,7 +310,7 @@ Set up a local repository using the React starter project:
 
 1. Open the Command Prompt using administrator rights.
 
-    ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028115829.png){width="50%"}
 
 1. On the Command Prompt, use the following command to navigate to **c:\git** folder
 
@@ -345,13 +345,13 @@ Set up a local repository using the React starter project:
 
     The Visual Studio Code window opens.
 
-    ![](/help/assets/screenshot2028117429.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028117429.png){width="50%"}
 
 To render the form hosted on your cloud service publish environment:
 
 1. Rename the env_template file to the .env file. To rename, right-click the **env_template** file and select the **Rename** option. 
     
-    ![](/help/assets/screenshot2028117629.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028117629.png){width="50%"}
     
     ![](/help/assets/screenshot2028117729.png)
 
@@ -453,7 +453,7 @@ Set up a local repository using the Material UI starter project:
 
 1. Open the Command Prompt using administrator rights.
     
-    ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028115829.png){width="50%"}
 
 
 1. On the Command Prompt, use the following command to navigate to **c:\git** folder:
@@ -500,7 +500,7 @@ To render the form hosted on your cloud service publish environment:
 
 1. Rename the **env_template** file to the **.env** file. To rename, right-click the **env_template** file and select **Rename**.
 
-    ![](/help/assets/screenshot2028126629.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028126629.png){width="50%"}
 
 1. Set the following values for the variables in the .env file. After updating the variables, save the file. Use the **CTRL + S** switch combination to save the file. 
 
@@ -543,7 +543,7 @@ To render the form hosted on your cloud service publish environment:
 
     Select **Check the box to receive 5% off**. The subsequent option **Would you like to apply for `We.Finance` Corporate Credit Card Form?** gets disabled.
 
-    ![](/help/assets/screenshot2028127329.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028127329.png){width="50%"}
 
 ## Lesson 6
 
@@ -593,7 +593,7 @@ Update the variation of components in the headless project. To change the varian
     This change happens for end users without any change to form definition at AEM Forms Server and is specific for the headless
     channel under consideration. For example, a web channel in this lab.
     
-    ![](/help/assets/screenshot2028127529.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028127529.png){width="50%"}
 
 
 1. Close Visual Studio Code and Command Prompt windows.
