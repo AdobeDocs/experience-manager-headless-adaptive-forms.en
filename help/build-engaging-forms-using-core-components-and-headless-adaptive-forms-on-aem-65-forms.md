@@ -71,15 +71,15 @@ In this lesson, you familiarize yourself with AEM 6.5 Forms by navigating the us
 
 1. After you are logged in, navigate to the AEM Forms UI. Click **Forms**.
 
-    ![](/help/assets/screenshot2028113829.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028113829.png){width="50%"}
 
 1. Click **Forms & Documents**. Dismiss any pop-ups related to preferences or information.
 
-    ![](/help/assets/screenshot2028113929.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028113929.png){width="50%"}
 
     All the available forms are displayed.
     
-    ![](/help/assets/screenshot2028114029.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028114029.png){width="50%"}
 
 ## Lesson 2
 
@@ -96,10 +96,10 @@ As a business user, you are going to use the Adaptive Forms editor and its out-o
 1. Create a submission endpoint for the form:
 
     1. Open <https://pipedream.com/requestbin> in a new browser tab.
-        ![](/help/assets/screenshot2028114329.png){width="50%" align="left"}
+        ![](/help/assets/screenshot2028114329.png){width="50%"}
 
     1. Click **Create a public bin** and copy the endpoint URL.
-        ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%" align="left"}
+        ![](/help/assets/screenshot202023-03-0120at206.10.0020pm.png){width="50%"}
     
     This particular endpoint serves as an example for submitting and viewing data. In actual production, you use your own endpoint or data sources to store the captured data.  
 
@@ -108,13 +108,13 @@ As a business user, you are going to use the Adaptive Forms editor and its out-o
     1. In the browser tab used in Lesson 1, navigate to the AEM Forms web interface and navigate to **Forms** > **Forms and Documents**.
 
     1. Click **Create** and select Adaptive Form.
-        ![](/help/assets/creating-adaptive-form-6-5.png){width="50%" align="left"}
+        ![](/help/assets/creating-adaptive-form-6-5.png){width="50%"}
 
     1. Select the **Blank with Core Components** template from the template selection screen as shown below and click **Next**.
-    ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%" align="left"}
+    ![](/help/assets/creating-adaptive-form-6-5-select-blank-template.png){width="50%"}
 
     1. Specify `Contact us` as the **Title** of the form. Ensure that the **Name** of the form is `contact-us`.
-    ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%" align="left"}
+    ![](/help/assets/creating-adaptive-form-65-specify-title.png){width="50%"}
 
     1. Click **Create**. A dialog box is displayed.
     
@@ -122,11 +122,11 @@ As a business user, you are going to use the Adaptive Forms editor and its out-o
    
     1. Open the Components browser and drag and drop the Panel component to the middle of the screen.
 
-        ![](/help/assets/lab65-add-panel.png){width="50%" align="left"} 
+        ![](/help/assets/lab65-add-panel.png){width="50%"} 
 
     1. Drag and drop components from the Components browser to create a form, similar to the following:
 
-        ![](/help/assets/contact-us-headless-adaptive-form.png){width="50%" align="left"}
+        ![](/help/assets/contact-us-headless-adaptive-form.png){width="50%"}
 
 
     1. Open the Content Browser, click the Guide Container properties icon, and open the **Submission** tab. 
@@ -135,7 +135,7 @@ As a business user, you are going to use the Adaptive Forms editor and its out-o
     
     1. Select the **Enable POST request** option, and specify the REST endpoint created in lesson 2 in the **URL for POST request** text box, then click the **Done** icon. 
 
-        ![](/help/assets/configure-submit-action.png){width="50%" align="left"}
+        ![](/help/assets/configure-submit-action.png){width="50%"}
 
 1. Publish an Adaptive Form:
 
@@ -159,7 +159,7 @@ Set up a local repository of the theme:
 
 1. Open the Command Prompt or shell with administrator rights:
 
-    ![](/help/assets/screenshot2028115829.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028115829.png){width="50%"}
 
 1. On the Command Prompt, use the following command to navigate to `c:\git` folder. 
 
@@ -188,19 +188,19 @@ Set up a local repository of the theme:
 
     ```
     
-    ![](/help/assets/screenshot2028126029.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028126029.png){width="50%"}
 
 1. Select **Trust the authors of all files in the parent folder** and click **Yes, I trust the authors**.
 
-    ![](/help/assets/screenshot2028116229.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028116229.png){width="50%"}
 
 1. Rename the `env_template` file to .env.  To rename the file, right click the **env_template** file and select the **Rename** option.
 
-    ![](/help/assets/screenshot2028116429.png){width="30%" align="left"}
+    ![](/help/assets/screenshot2028116429.png){width="30%"}
 
      </br>
 
-    ![](/help/assets/screenshot2028116529.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028116529.png){width="50%"}
 
 1. Set the following values for the variables in the .env file and save the file:
 
@@ -245,12 +245,12 @@ Set up a local repository of the theme:
     >If you experience a blank screen in browser after executing the `npm run live` command for more than 3-4 minutes, change `localhost` in browser URL to 127.0.0.1 and hit **Enter**. 
 
     
-    ![](/help/assets/contact-us-headless-adaptive-form-with-canvas-theme.png){width="50%" align="left"}
+    ![](/help/assets/contact-us-headless-adaptive-form-with-canvas-theme.png){width="50%"}
 
 
 1. In Visual Studio Code, open the `PROJECT\src\site\_variables.scss` file. Notice the `$error` color is a shade of RED.
 
-    ![](/help/assets/screenshot2028120729.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028120729.png){width="50%"}
 
 1. In the browser, submit the form to see the Red color in the **First Name** field.
 
@@ -281,7 +281,7 @@ Set up a local repository using the React starter project:
 
 1. Open the Command Prompt using administrator rights.
 
-    ![](/help/assets/screenshot2028115829.png){width="30%" align="left"}
+    ![](/help/assets/screenshot2028115829.png){width="30%"}
 
 1. On the Command Prompt, use the following command to navigate to `c:\git` folder. 
 
@@ -316,13 +316,13 @@ Set up a local repository using the React starter project:
 
     The Visual Studio Code window opens.
 
-    ![](/help/assets/screenshot2028117429.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028117429.png){width="50%"}
 
 To render the form hosted on your publish environment:
 
 1. Rename the env_template file to the .env file. To rename, right-click the **env_template** file and select the **Rename** option. 
     
-    ![](/help/assets/screenshot2028117629.png){width="30%" align="left"}
+    ![](/help/assets/screenshot2028117629.png){width="30%"}
     
     ![](/help/assets/screenshot2028117729.png)
 
@@ -375,7 +375,7 @@ Let's make changes on the form on the server as a business user and view changes
 
 1. Select the **Contact number** field and click the **Edit icon (Pencil icon)** in the toolbar. If you are not able to see the pop-up toolbar, switch to Edit mode. Click the **Edit** button in top right, left of the **Preview** button.
 
-    ![](/help/assets/change-field-title.png){width="50%" align="left"}
+    ![](/help/assets/change-field-title.png){width="50%"}
 
 1. Change the label to **Mobile Number**. Click any empty space in the form and the changes made to the form are saved.
 
@@ -417,7 +417,7 @@ Set up a local repository using the Material UI starter project:
 
 1. Open the Command Prompt using administrator rights.
     
-    ![](/help/assets/screenshot2028115829.png){width="30%" align="left"}
+    ![](/help/assets/screenshot2028115829.png){width="30%"}
 
 1. On the Command Prompt, use the following command to navigate to `c:\git` folder. 
 
@@ -463,7 +463,7 @@ To render the form hosted on your publish environment:
 
 1. Rename the **env_template** file to the **.env** file. To rename, right-click the **env_template** file and select **Rename**.
 
-    ![](/help/assets/screenshot2028126629.png){width="30%" align="left"}
+    ![](/help/assets/screenshot2028126629.png){width="30%"}
 
 1. Set the following values for the variables in the .env file. After updating the variables, save the file. Use the **CTRL + S** switch combination to save the file. 
 
@@ -542,7 +542,7 @@ Update the variation of components in the headless project. To change the varian
 
 1. Refresh the browser, if it does not refresh automatically, to see the text input component use a different variant.
 
-    ![](/help/assets/screenshot2028127729.png){width="50%" align="left"}
+    ![](/help/assets/screenshot2028127729.png){width="50%"}
 
     
     This change happens for end users without any change to form definition at AEM Forms Server and is specific for the headless
