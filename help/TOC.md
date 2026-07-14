@@ -5,6 +5,7 @@ user-guide-description: Documentation for Adobe Experience Manager Headless adap
 feature: Adaptive Forms
 role: Developer
 index: true
+nudge: true
 ---
 
 # Adobe Experience Manager Headless adaptive forms {#using}
