@@ -8,7 +8,6 @@ role: Admin, Developer
 level: Beginner, Intermediate
 keywords: Headless CMS, adaptive forms, Headless UI, Headful CMS, voice assistants, alexa, chatbots, WhatsApp architecture
 hide: true
-exl-id: f6a383ea-684b-479d-a15f-8ebced75635e
 TQID: https://experienceleague.adobe.com/HMhHwfjQTZe2BaoMbMilfOJ0-GZrZsHTGjTBqeU-ORM
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
@@ -30,7 +29,9 @@ level_v2:
     internal-label: Intermediate
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
     internal-label: Beginner
+exl-id: f6a383ea-684b-479d-a15f-8ebced75635e
 ---
+
 # Introduction
 
 Adobe Experience Manager (AEM) Headless Adaptive Forms is a solution for creating and managing headless web forms within the Adobe Experience Manager platform. This feature enables organizations to create, publish, and manage interactive forms that can be accessed and interacted with through APIs, rather than through a traditional graphical user interface. AEM Headless adaptive Forms allow for greater flexibility and scalability in form development and deployment, as well as improved user experience through the ability to tailor form design and functionality to specific needs. By using the capabilities of AEM and headless technology, this solution provides a robust platform for creating, managing, and deploying web forms for various use cases and applications.
@@ -47,7 +48,6 @@ Headless adaptive forms help you do the following:
 In addition, you have the freedom to develop your own components to render a form using any UI framework and programming language of your choice. You can also use React components available out-of-the-box to render a Headless adaptive form.
 
 <!-- 
-
 ## Key Features
 
 <table style="width:100%;">
@@ -190,8 +190,8 @@ In addition, you have the freedom to develop your own components to render a for
         <p>Description 3</p>
     </div>
 </div>
-
 -->
+
 <!-- Add more cards as needed -->
 
 ## Who can use Headless adaptive forms? {#who-can-use-headless-adaptive-forms}
@@ -204,5 +204,4 @@ You require no prior knowledge of Adobe Experience Manager to develop Headless a
 ## How to join the early adopter program? {#how-to-join-early-adopter-forms}
 
 The service is available for AEM Forms as a Cloud Service and AEM 6.5.16.0 Forms or later On-Premise term customers and Adobe-Managed Service enterprise customers. Send an email to [headlessadaptiveforms@adobe.com](mailto:headlessadaptiveforms@adobe.com) from your official email ID to join the early adopter program. 
-
 -->
