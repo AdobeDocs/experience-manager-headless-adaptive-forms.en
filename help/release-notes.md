@@ -3,6 +3,9 @@ title: AEM Headless Adaptive Forms Overview
 description: Overview for AEM Headless adaptive forms.
 hide: true
 exl-id: cd7c7972-376c-489f-a684-f479d92c37e7
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 
 # Release notes

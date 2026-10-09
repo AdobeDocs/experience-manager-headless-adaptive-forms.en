@@ -3,6 +3,9 @@ title: Set up development environment for AEM Headless adaptive forms
 description: Set up development environment for AEM Headless adaptive forms
 hide: true
 exl-id: fd92f057-1217-42f8-a454-1bc7e3827e01
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 
 # Setup a local development environment {#headless-adaptive-forms-setup-development-environment}
