@@ -10,7 +10,7 @@ keywords: headless, adaptive form, architecture
 Applies to: Adaptive Forms, Core Components
 index: true
 exl-id: ee7096d8-89e2-41e0-85e7-b26457df96fb
-TQID: https://experienceleague.adobe.com/Ox-1cxb5UK-oWcWzrRKcRAzCVaAGhUjQsjtnaURJXiw
+TQID: 'https://experienceleague.adobe.com/Ox-1cxb5UK-oWcWzrRKcRAzCVaAGhUjQsjtnaURJXiw'
 product_v2:
   - id: e8f6de9b-cf88-4405-8d10-15efa08c230e
     internal-label: Experience Manager Forms
@@ -23,6 +23,11 @@ feature_v2:
     internal-label: APIs
   - id: f2d27a5f-0d67-4d85-8a24-86a8d8a3574b
     internal-label: Developer tools
+  - id: e72c079d-d036-46d5-b43d-29b276a174c2
+    internal-label: Authoring and publishing content
+subfeature_v2:
+  - id: a26f372d-6d7c-452b-81df-594dd4365ae1
+    internal-label: Adaptive Forms
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin

@@ -3,6 +3,9 @@ title: Known Issues of Headless Adaptive Forms
 description: Known issues of Headless adaptive forms.
 keywords: headless, adaptive form, known issues
 hide: true
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 
 # Known issues {#known-issues}

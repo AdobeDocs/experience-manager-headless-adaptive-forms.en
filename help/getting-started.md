@@ -1,8 +1,11 @@
 ---
-title: Getting Started with Headless Adaptive Forms
-description: Getting Started with Headless Adaptive Forms
+title: "Getting Started with Headless Adaptive\_Forms"
+description: "Getting Started with Headless Adaptive\_Forms"
 keywords: headless, adaptive form, tutorial
 hide: true
+product_v2:
+  - id: fd1f54a9-f50c-467d-8956-cebbaf4f3eb8
+    internal-label: Experience Manager
 ---
 
 # Getting Started with Headless Adaptive Forms
